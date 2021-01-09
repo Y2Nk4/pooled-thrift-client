@@ -1,6 +1,6 @@
 {
-  "name": "@chatopera/thrift-pool",
-  "version": "0.3.0",
+  "name": "@y2nk4/pooled-thrift-client",
+  "version": "0.3.1",
   "description": "A Thrift client utilising a pool of service connections and improved error handling/recovery",
   "main": "src/index.js",
   "engines": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samurais/pooled-thrift-client.git"
+    "url": "git+https://github.com/Y2Nk4/pooled-thrift-client.git"
   },
   "keywords": [
     "thrift",
@@ -22,13 +22,13 @@
   "author": "Anuj Das, Hai Liang Wang",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/samurais/pooled-thrift-client/issues"
+    "url": "https://github.com/Y2Nk4/pooled-thrift-client/issues"
   },
-  "homepage": "https://github.com/samurais/pooled-thrift-client#readme",
+  "homepage": "https://github.com/Y2Nk4/pooled-thrift-client#readme",
   "dependencies": {
     "debug": "^4.1.1",
     "generic-pool": "^3.7.1",
-    "thrift": "^0.12.0"
+    "thrift": "^0.13.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
